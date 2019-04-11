@@ -1,4 +1,19 @@
 # iebis_swdev_exam_debugging
+
+
+Comments from Lucas:
+
+- The first error I found is regarding the regex. If you want to replace the “.”  With / you can escape it.
+- The second error is regarding the case and how the word is being put the value. Since it is a StringBuffer you need to pass the value like this “value”.
+- The third error is why it is always getting Tour which is case 2
+- The fourth error is with how we append the value. This has been fixed.
+
+
+
+
+
+
+_____
 Somebody from administration wanted to create a random phrase generators and created the code that you can find in Main.java for this purpose.
 
 The intention was to transform students email address to something similar but using slashes ("/") instead of dots ("."). Then he wanted to put a random word in front of the result to create weird sentences.
