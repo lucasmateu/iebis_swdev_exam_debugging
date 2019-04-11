@@ -10,13 +10,13 @@ public class Main {
         Random random = new Random();
         StringBuffer word = null;
 
-        switch (random.nextInt(2)) {
+        switch (random.nextInt(2+1)) {
             case 0:
-                word = new StringBuffer('Y');
+                word = new StringBuffer("Y");
             case 1:
-                word = new StringBuffer('F');
+                word = new StringBuffer("F");
             case 2:
-                word = new StringBuffer('T');
+                word = new StringBuffer("T");
         }
 
         word.append('o');
